@@ -61,6 +61,23 @@
 				right: 60px !important;
 				z-index: 100000000 !important;
       }
+      .phoneBtn{
+        position: fixed !important;
+        bottom: 160px !important;
+        font-size: 50px !important;
+				right: 60px !important;
+				z-index: 100000000 !important;
+      }
+      .phoneBtn img,.topBtn img{
+        width: 50px;
+      }
+      .topBtn{
+        position: fixed !important;
+        bottom: 70px !important;
+        font-size: 50px !important;
+				right: 60px !important;
+				z-index: 100000000 !important;
+      }
       @media (max-width: 767px) {
         label.vfb-desc {
           font-weight: 700;
@@ -149,7 +166,7 @@
                   data-widget_type="menu-anchor.default"
                 >
                   <div class="elementor-widget-container">
-                    <div id="top" class="elementor-menu-anchor"></div>
+                    <div class="elementor-menu-anchor"></div>
                   </div>
                 </div>
                 <div
@@ -2875,7 +2892,7 @@
                         background-color: #af0606;
                       }
                       .elementor-social-icon-youtube {
-                        background-color: #cd201f;
+                        background-color: #cd201f;阿里巴巴矢量图标库
                       }
                       .elementor-social-icon-500px {
                         background-color: #0099e5;
@@ -2887,17 +2904,13 @@
                         border-radius: 50%;
                       }
                     </style> -->
-                    <div class="elementor-social-icons-wrapper elementor-grid">
-                      <span class="elementor-grid-item">
-                        <a
-                          class="elementor-icon elementor-social-icon elementor-social-icon-whatsapp elementor-animation-grow elementor-repeater-item-7941aeb"
-                          href="#"
-                          target="_blank"
-                        >
-                          <span class="elementor-screen-only">Whatsapp</span>
-                          <i class="fab fa-whatsapp"></i>
-                        </a>
-                      </span>
+                    <div class="elementor-social-icons-wrapper elementor-grid phoneBtn">
+                      <img src="./static/image/phone_icon.png">
+                    </div>
+                    <div class="elementor-social-icons-wrapper elementor-grid topBtn">
+                      <a href="#top">
+                        <img src="./static/image/backTop_icon.png">
+                      </a>
                     </div>
                   </div>
                 </div>
