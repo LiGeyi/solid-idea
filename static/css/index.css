@@ -486,7 +486,7 @@ ul li {
   top: 0;
   left: 0;
   right: 0;
-  min-height: 250px;
+  min-height: 250px !important;
 }
 /* 轮播 */
 .swiper4 {
