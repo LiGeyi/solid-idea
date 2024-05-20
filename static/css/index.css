@@ -199,6 +199,19 @@
   .temp-item video,.template-flow-container{
     height: 160px !important;
   }
+  .elementor-148 .elementor-element.elementor-element-2118ce6a{
+    padding-top: 0px !important;
+  }
+  .swiper1{
+    height: 250px !important;
+  }
+  .dowebok, .dowebok2{
+    margin: 50px auto !important;
+  }
+  .dowebok img, .dowebok2 img{
+    height: 100px !important;
+    margin: 0 20px;
+  }
 }
 .elementor-widget-image-box .elementor-image-box-img {
   display: inline-block;
@@ -473,6 +486,7 @@ ul li {
   top: 0;
   left: 0;
   right: 0;
+  min-height: 250px;
 }
 /* 轮播 */
 .swiper4 {
