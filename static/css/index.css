@@ -574,3 +574,12 @@ ul li {
 }
 .dowebok,.dowebok2 { width: 100%; margin: 100px auto; font-size: 0;}
 .dowebok img,.dowebok2 img { margin:0 50px;}
+.iconCur{
+  margin-bottom: 90px !important;
+}
+.h2Tit{
+  margin-top: 70px !important;
+}
+.elementor-image-box-title{
+  font-size: 18px !important;
+}
