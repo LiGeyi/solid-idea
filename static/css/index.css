@@ -12,19 +12,13 @@
   font-size: 18px !important;
   font-weight: 500 !important;
 }
-.fa-whatsapp{
-  position: fixed !important;
-  bottom: 80px !important;
-  font-size: 50px !important;
-  right: 60px !important;
-  z-index: 100000000 !important;
-}
 .phoneBtn{
   position: fixed !important;
   bottom: 160px !important;
   font-size: 50px !important;
   right: 60px !important;
   z-index: 100000000 !important;
+  width: fit-content !important;
 }
 .phoneBtn img,.topBtn img{
   width: 50px;
@@ -34,6 +28,7 @@
   bottom: 70px !important;
   font-size: 50px !important;
   right: 60px !important;
+  width: fit-content !important;
   z-index: 100000000 !important;
 }
 @media (max-width: 767px) {

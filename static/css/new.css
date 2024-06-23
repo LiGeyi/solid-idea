@@ -1,0 +1,162 @@
+.newBox{
+	max-width: 1300px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.newLeft{
+	width: 70%;
+}
+.newRight{
+	width: 28%;
+}
+div{
+	font-family: "Marcellus", Sans-serif;
+}
+.newBox{
+	padding: 260px 0 70px 0;
+}
+.newTit{
+	font-size: 48px;
+	color: #212121;
+	font-weight: 600;
+	border-left: 2px solid #43a047;
+	padding: 10px 20px;
+}
+.newTagList{
+	display: flex;
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+	margin-top: 20px;
+	font-family: 'Montserrat', Sans-serif !important;
+}
+.newTagList li{
+	margin-right: 40px;
+}
+.newTitList{
+	list-style-type: disc !important; 
+	margin: 30px 0 10px 0;
+	font-size: 16px;
+}
+.newTitList li{
+	list-style-type: disc !important; 
+	color: #212121;
+}
+.newsCont img{
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.newsCont h1{
+	font-weight: bold;
+	font-size: 22px;
+	margin: 30px;
+	text-align: center;
+	color: #212121;
+}
+.searchBox{
+	position: relative !important;
+}
+.searchBox i{
+	position: absolute !important;
+	left: 16px;
+	top: 50%;
+	margin-top: -6px;
+}
+.searchIpt{
+	padding: 10px 30px 10px 40px !important;
+	line-height: 40px !important;
+	height: 40px !important;
+	color: #212121 !important;
+}
+.rightTit{
+	margin-top: 70px;
+	font-size: 24px;
+	color: #212121;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.rightNewsList{
+	padding-left: 0;
+	color: #212121;
+}
+.rightItem{
+	margin-bottom: 20px;
+}
+.itemTit{
+	font-size: 18px;
+	color: #212121;
+	font-weight: 600;
+	margin-bottom: 14px;
+	font-family: 'Montserrat', Sans-serif !important;
+	line-height: 30px;
+}
+.rightTag{
+	font-size: 14px;
+	font-family: 'Montserrat', Sans-serif !important;
+}
+.rightTag span{
+	color: #212121 !important;
+	letter-spacing: -1px;
+}
+.rightItem a{
+	display: block;
+}
+.dfBox{
+	display: flex;
+}
+.bgimage{
+	width: 115px;
+	height: 103px;
+	margin-right: 16px;
+	background-size: cover !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+}
+.rightCont{
+	flex: 1;
+}
+.followList{
+	display: flex;
+	padding-left: 0;
+	margin-top: 40px;
+}
+.followList li{
+	margin-right: 40px;
+}
+.followList i{
+	font-size: 28px;
+}
+.followList i:hover{
+	color: #212121;
+}
+@media (max-width: 767px) {
+	.newLeft{
+		width: 100%;
+	}
+	.newRight{
+		width: 100%;
+	}
+	.newTit{
+		font-size: 30px;
+		line-height: 46px;
+		padding: 0 20px;
+	}
+	.newBox{
+		padding: 140px 20px 50px 20px;
+	}
+	.newTagList{
+		flex-wrap: wrap;
+	}
+	.newTagList li{
+		margin-right: 20px;
+		margin-bottom: 10px;
+	}
+	.newTitList{
+		padding-left: 20px;
+	}
+	.newRight{
+		margin-top: 40px;
+	}
+}

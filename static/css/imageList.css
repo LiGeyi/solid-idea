@@ -1,0 +1,114 @@
+.bannerTop{
+  margin-top: 140px !important;
+}
+.txtleft{
+  text-align: left !important;
+}
+.imgSection{
+  margin: 40px 0;
+}
+.imgListBox{
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.imageBoxitem{
+  position: relative;
+  width: 405px;
+  height: 296px;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+.blogBox{
+	margin-bottom: 40px;
+}
+.blogBox .imageBoxitem{
+	width: 100% !important;
+}
+.imageBoxitem::before{
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(0, 0, 0,0.3);
+  transition: visibility 0s, opacity 0.3s linear;
+}
+.imageBoxitem:hover::before{
+  visibility: visible; /* 显示伪元素 */
+  opacity: 1;
+}
+.imgItem{
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.imgItem:nth-child(3n-3){
+  margin-right: 0 !important;
+}
+.imgItem a{
+  display: block;
+}
+.fontBox{
+  color: #000000;
+  font-family: "Marcellus", Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0.2px;
+  margin-top: 20px;
+}
+@media (max-width: 767px) {
+  body{
+    width: fit-content;
+  }
+  .imgListBox{
+    max-width: auto !important;
+    margin: 0 auto;
+    display: block !important;
+  }
+  .bannerTop{
+    margin-top: 100px !important;
+  }
+  .imgItem{
+    margin: 0 !important;
+  }
+  .imageBoxitem{
+    width: 90% !important;
+    height: 200px !important;
+    margin: 10px auto !important;
+  }
+  .fontBox{
+    margin: 10px 20px !important;
+  }
+}
+.detailImgSection .imgItem{
+  margin-right: 10px;
+  margin-bottom: 14px;
+}
+.imgListBox{
+  max-width: 1260px;
+}
+.detailImgSection .imageBoxitem{
+  position: relative;
+  width: 413px;
+  height: 275px;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+.bigImageBox{
+  max-width: 1260px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.bigImageBox img{
+  display: block;
+  width: 100%;
+}
+.detailImgSection{
+  margin-top: 20px;
+}
